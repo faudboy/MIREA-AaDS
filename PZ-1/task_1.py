@@ -1,5 +1,5 @@
 from math import asin, sqrt, log
-def f4(x): return sqrt(1-0.4*x**2) - asin(x)
+def f4(x): return sqrt(1-0.4*x**2) - asin(x) # вариант 4
 print("тип ввода: 0 1 0.0001 (начало конец погрешность)")
 c = 0
 L, R, ep_s = map(float, input().split()) #промежуток монотонности и погрешность
